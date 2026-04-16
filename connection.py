@@ -6,7 +6,7 @@ def get_connection():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Tarun_143",
+        password="DB_password",
         database="university_db"
     )
 
